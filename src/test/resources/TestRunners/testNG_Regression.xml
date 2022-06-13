@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Practice Test automtion regression suite" thread-count="2"
+	parallel="tests" verbose="3">
+	
+	 	<listeners>
+	<!--	<listener 
+		class-name="com.qa.opencart.listeners.ExtentReportListener"/> -->
+		
+		<listener 
+		class-name="com.qa.opencart.listeners.TestAllureListener"/>
+		
+	</listeners>
+
+	<test name="Login Page Test - chrome">
+		<parameter name="browser" value="chrome" /> 
+		
+		<classes>
+			<class name="com.orangeHRM.Test.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<!-- <test name="Accounts Page Test - chrome">
+		<parameter name="browser" value="chrome" /> 
+		
+		<classes>
+			<class name="com.orangeHRM.Test.AccountPageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Product Info Test - chrome">
+		<parameter name="browser" value="chrome" /> 
+		<classes>
+			<class name="com.orangeHRM.Test.ProductInfoTest">
+			</class>
+		</classes>
+	</test> -->
+
+</suite>

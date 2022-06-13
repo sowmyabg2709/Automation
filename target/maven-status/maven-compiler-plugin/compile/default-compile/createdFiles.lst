@@ -1,0 +1,12 @@
+com\orangeHRM\utils\Constants.class
+com\orangeHRM\utils\ElementUtil.class
+com\orangeHRM\pages\LoginPage.class
+com\orangeHRM\utils\ExcelUtil.class
+com\orangeHRM\factory\OptionsManager.class
+com\orangeHRM\factory\DriverFactory.class
+com\orangeHRM\pages\CommonsPage.class
+com\orangeHRM\utils\Error.class
+com\orangeHRM\pages\ProductInfoPage.class
+com\orangeHRM\pages\AccountPage.class
+com\orangeHRM\pages\SearchResultPage.class
+com\orangeHRM\utils\JavaScriptUtil.class

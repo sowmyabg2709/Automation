@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Automation Practice Test automtion regression suite]" parallel="tests">
+  <test thread-count="2" verbose="3" name="Product Info Test - firefox(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.orangeHRM.Test.ProductInfoTest">
+        <methods>
+          <include name="productInfoTest"/>
+          <include name="productInfoSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="productCountTest"/>
+        </methods>
+      </class> <!-- com.orangeHRM.Test.ProductInfoTest -->
+    </classes>
+  </test> <!-- Product Info Test - firefox(failed) -->
+</suite> <!-- Failed suite [Automation Practice Test automtion regression suite] -->

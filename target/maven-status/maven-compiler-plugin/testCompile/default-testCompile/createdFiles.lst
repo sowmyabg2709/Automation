@@ -1,0 +1,4 @@
+com\orangeHRM\Test\ProductInfoTest.class
+com\orangeHRM\Test\AccountPageTest.class
+com\orangeHRM\Test\LoginPageTest.class
+com\oranageHRM\Base\BaseTest.class

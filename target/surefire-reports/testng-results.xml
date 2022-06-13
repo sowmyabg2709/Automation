@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Practice Test automtion regression suite" duration-ms="34559" started-at="2022-06-13T03:27:57Z" finished-at="2022-06-13T03:28:31Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test - chrome" duration-ms="34559" started-at="2022-06-13T03:27:57Z" finished-at="2022-06-13T03:28:31Z">
+      <class name="com.orangeHRM.Test.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@4c51bb7]" name="setUp" is-config="true" duration-ms="17330" started-at="2022-06-13T03:27:58Z" finished-at="2022-06-13T03:28:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLoginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@4c51bb7]" name="doLoginNegativeTest" duration-ms="4436" started-at="2022-06-13T03:28:15Z" data-provider="loginNegative" finished-at="2022-06-13T03:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginNegativeTest -->
+        <test-method status="PASS" signature="doLoginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@4c51bb7]" name="doLoginNegativeTest" duration-ms="4418" started-at="2022-06-13T03:28:20Z" data-provider="loginNegative" finished-at="2022-06-13T03:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginNegativeTest -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.orangeHRM.Test.LoginPageTest@4c51bb7]" name="loginPageTitleTest" duration-ms="232" started-at="2022-06-13T03:28:24Z" finished-at="2022-06-13T03:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="forGotPasswordTest()[pri:3, instance:com.orangeHRM.Test.LoginPageTest@4c51bb7]" name="forGotPasswordTest" duration-ms="749" started-at="2022-06-13T03:28:24Z" finished-at="2022-06-13T03:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forGotPasswordTest -->
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.orangeHRM.Test.LoginPageTest@4c51bb7]" name="loginTest" duration-ms="4951" started-at="2022-06-13T03:28:25Z" finished-at="2022-06-13T03:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.Test.LoginPageTest@4c51bb7]" name="tearDown" is-config="true" duration-ms="1106" started-at="2022-06-13T03:28:30Z" finished-at="2022-06-13T03:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.Test.LoginPageTest -->
+    </test> <!-- Login Page Test - chrome -->
+  </suite> <!-- Automation Practice Test automtion regression suite -->
+</testng-results>
