@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Practice Test automtion regression suite" duration-ms="37282" started-at="2022-06-13T01:33:26Z" finished-at="2022-06-13T01:34:03Z">
+  <suite name="Automation Practice Test automtion regression suite" duration-ms="54839" started-at="2022-06-14T14:58:24 IST" finished-at="2022-06-14T14:59:19 IST">
     <groups>
     </groups>
-    <test name="Login Page Test - chrome" duration-ms="37282" started-at="2022-06-13T01:33:26Z" finished-at="2022-06-13T01:34:03Z">
+    <test name="Login Page Test - chrome" duration-ms="54839" started-at="2022-06-14T14:58:24 IST" finished-at="2022-06-14T14:59:19 IST">
       <class name="com.orangeHRM.Test.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@91161c7]" name="setUp" is-config="true" duration-ms="20537" started-at="2022-06-13T01:33:26Z" finished-at="2022-06-13T01:33:46Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@654b72c0]" name="setUp" is-config="true" duration-ms="17555" started-at="2022-06-14T14:58:25 IST" finished-at="2022-06-14T14:58:42 IST">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doLoginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@91161c7]" name="doLoginNegativeTest" duration-ms="4673" started-at="2022-06-13T01:33:46Z" data-provider="loginNegative" finished-at="2022-06-13T01:33:51Z">
+        <test-method status="PASS" signature="doLoginNegativeTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@654b72c0]" name="doLoginNegativeTest" duration-ms="8438" started-at="2022-06-14T14:58:43 IST" data-provider="loginNegative" finished-at="2022-06-14T14:58:51 IST">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginNegativeTest -->
-        <test-method status="PASS" signature="doLoginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@91161c7]" name="doLoginNegativeTest" duration-ms="4817" started-at="2022-06-13T01:33:51Z" data-provider="loginNegative" finished-at="2022-06-13T01:33:56Z">
+        <test-method status="PASS" signature="doLoginNegativeTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.Test.LoginPageTest@654b72c0]" name="doLoginNegativeTest" duration-ms="7262" started-at="2022-06-14T14:58:51 IST" data-provider="loginNegative" finished-at="2022-06-14T14:58:58 IST">
           <params>
             <param index="0">
               <value>
@@ -50,19 +50,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginNegativeTest -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.orangeHRM.Test.LoginPageTest@91161c7]" name="loginPageTitleTest" duration-ms="102" started-at="2022-06-13T01:33:56Z" finished-at="2022-06-13T01:33:56Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.orangeHRM.Test.LoginPageTest@654b72c0]" name="loginPageTitleTest" duration-ms="431" started-at="2022-06-14T14:58:58 IST" finished-at="2022-06-14T14:58:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="forGotPasswordTest()[pri:3, instance:com.orangeHRM.Test.LoginPageTest@91161c7]" name="forGotPasswordTest" duration-ms="573" started-at="2022-06-13T01:33:56Z" finished-at="2022-06-13T01:33:56Z">
+        <test-method status="PASS" signature="forGotPasswordTest()[pri:3, instance:com.orangeHRM.Test.LoginPageTest@654b72c0]" name="forGotPasswordTest" duration-ms="1193" started-at="2022-06-14T14:58:59 IST" finished-at="2022-06-14T14:59:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forGotPasswordTest -->
-        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.orangeHRM.Test.LoginPageTest@91161c7]" name="loginTest" duration-ms="5244" started-at="2022-06-13T01:33:56Z" finished-at="2022-06-13T01:34:02Z">
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.orangeHRM.Test.LoginPageTest@654b72c0]" name="loginTest" duration-ms="16713" started-at="2022-06-14T14:59:00 IST" finished-at="2022-06-14T14:59:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.Test.LoginPageTest@91161c7]" name="tearDown" is-config="true" duration-ms="1278" started-at="2022-06-13T01:34:02Z" finished-at="2022-06-13T01:34:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.Test.LoginPageTest@654b72c0]" name="tearDown" is-config="true" duration-ms="1865" started-at="2022-06-14T14:59:17 IST" finished-at="2022-06-14T14:59:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

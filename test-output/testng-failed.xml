@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Automation Practice Test automtion regression suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.oranageHRM.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="2" verbose="3" name="Login Page Test - chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.orangeHRM.Test.LoginPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="doLoginNegativeTest"/>
-          <include name="loginPageTitleTest"/>
-          <include name="loginTest"/>
           <include name="tearDown"/>
+          <include name="doLoginNegativeTest" invocation-numbers="0 1"/>
+          <include name="loginPageTitleTest"/>
           <include name="forGotPasswordTest"/>
         </methods>
       </class> <!-- com.orangeHRM.Test.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Login Page Test - chrome(failed) -->
+</suite> <!-- Failed suite [Automation Practice Test automtion regression suite] -->
