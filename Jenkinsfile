@@ -8,8 +8,29 @@ agent any
 
             }
         }
+        
+         stage ('Deploy in Dev') { 
+            steps{
+                echo "Build is deployed in Dev"
+
+            }
+        }
+        
+          stage ('Deploy in QA') { 
+            steps{
+                echo "Build is deployed in QA"
+
+            }
+        }
+        
+          stage ('Smoke Test') { 
+            steps{
+                echo "Smoke Test carried"
+
+            }
+        }
   
-        stage('Test') {
+        stage('Regression Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     bat "mvn clean install"
